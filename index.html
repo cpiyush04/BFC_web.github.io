@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>BFC club</title>
+  <link rel="icon" type="image/x-icon" href="https://pbs.twimg.com/profile_images/640891952834215936/FwueNEWL_400x400.png">
+</head>
+<body>
+<div class="vessel">
+<div class="container" id="c1" >
+  <div class="navbar">
+      <div class="title" >
+       <div class="brand">
+         <h1>B<i class="trans">ARLIN</i> </h1>
+         <h1>F<i class="trans">OOTBALL</i></h1>
+         <h1>C<i class="trans">LUB</i></h1>
+       </div>
+       <div>
+         <img id="logo" src="newd.png" style="height:115px; width: 100px">
+       </div>
+       </div>
+     <div class="nav_content">
+   <div class="links">
+     <a class="active" href="#">Home</a>
+       <div id="contacts">
+     <a>Contact Us</a>
+       <div class="drop_content">
+               <a href="#">Email</a>
+               <a href="#">Contact Num</a>
+               <a href="#">BFC. E-support portal</a>
+       </div>
+           </div>
+       <div id="follower">
+      <a>Follow us</a>
+       <div class="drop_content">
+            <a href="#">@instagram</a>
+               <a href="#">@discord</a>
+               <a href="#">@facebook</a>
+       </div>
+       </div>
+     <a>Login</a>
+     <a onmouseover="opSearch()" onmouseout="reset()">Search</a>
+
+   </div>
+       <div id="mySearch">
+              <input type="text" placeholder="search here..." style="height:40px; width:250px;font-size:20px; border-radius:5px">
+           <button type="button" style="height:40px; width:60px;font-size:20px">GO!</button>
+       </div>
+  </div>
+  </div>
+      <div class="show">
+        <button type="button">go left</button>
+          <h1 class="head"><i>FOOTBALL IS OUR PASSION!</i></h1>
+       <button type="button">go right</button>
+</div>
+</div>
+
+<div class="container" id="c2">
+    <h1 id="hello">HOLA AMIGOS!</h1>
+    <div id="para1">
+        <p ><i>We,the members of the B.F.C.( BARLIN FOOTBALL CLUB) welcome you to our club website.</i></p>
+        <br>
+        <br>
+        <p>
+            <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+            aliquip ex ea commodo consequat.<br>Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+            qui officia deserunt mollit anim id est laborum.</i>
+        </p>
+    </div>
+      <div id="over" >
+          <button  type="button" onmouseover="openNav()" ><b>HAVE A LOOK AT BFC. Team!</b></button>
+       </div>
+
+    <div id="myNav" class="overlay">
+        <button class="closebtn" onclick="closeNav()">Click to go back.</button>
+            <div class="collage">                                                                               
+           <img id="oldt" src="old.jpg" style="height:300px; width: 350px">
+           <img id="newt" src="team.jpg" style="height:300px; width: 350px">
+            <img id="tt" src="trophy.jpg" style="height:300px; width: 350px">
+            <img id="train" src="training.jpg" style="height:300px; width: 350px">
+            <img id="ft" src="feat.jpg" style="height:300px; width: 350px">
+        <img id="meet" src="meet.jpg" style="height:300px; width: 350px">
+            </div>
+      </div>
+    </div>
+
+
+<div class="container" id="c3">
+    <div class="set1">
+        <button type="button" onmouseover="openNav1()">CHAMPIONSHIPS</button>
+    </div>
+    <div class="set2">
+        <button type="button"> EVENTS</button>
+    </div>
+    <div class="set3">
+        <button type="button">TRAINING</button>
+    </div>
+    <div class="set4">
+        <button type="button">STAR PLAYERS</button>
+    </div>
+    <div class="set3"></div>
+</div>
+
+<div class="overlay" id="Nav1">
+        <button class="closebtn" onclick="closeNav1()">Go back.</button>
+            <div class="champ1">
+                 <img src="sportman.jpg" style="height:300px; width: 350px" >
+            </div>
+            <div class="champ2">
+                 <img src="stadium.jpg" style="height:300px; width: 350px">
+            </div>
+      </div>
+
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
